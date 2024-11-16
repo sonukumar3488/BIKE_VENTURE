@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.bookingRow {
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+
+.card-text{
+  font-size: 20px;
+  font-style: oblique;
+}
+
+.ant-btn-primary {
+  background-color: #1890ff;
+  border-color: #1890ff;
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.12);
+  -webkit-box-shadow: 0 2px 0 rgba(0,0,0,0.045);
+  box-shadow: 0 2px 0 rgba(0,0,0,0.045);
+}
+
+.container {
+  margin-top: 50px;
+}
+
+/* for mobile view */
+@media (max-width: 500px) {
+  .container {
+    margin-top: 0;
+  }
+  .ant-btn .username {
+    display: none; 
+  }
+}
+
